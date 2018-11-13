@@ -158,7 +158,7 @@
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #52A49F;
   color: white;
 }
 
@@ -274,7 +274,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Crimson Text', serif;
   letter-spacing: 0.0625em;
 }
 
@@ -288,7 +288,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #243D4C !important;
 }
 
 .bg-primary {
