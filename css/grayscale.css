@@ -152,6 +152,7 @@
 
 .btn-primary {
   background-color: #243D4C;
+  margin-top: 28px;
 }
 
 .btn-primary:hover {
@@ -198,15 +199,25 @@
   }
 }
 
+@media (min-width: 992px){
+  .mb-lg-5 .my-lg-5
+
+ {
+    margin-bottom: 15rem!important;
+  }
+}
+
+
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
 .andrew{
-  padding-left: 16em;
+  padding-left: 6em;
   padding-bottom: 9em;
 }
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -289,9 +300,18 @@ body {
   letter-spacing: 0.0625em;
 }
 
+h4{
+  font-size: 2.5rem;
+}
+
 a {
   color: #243D4C;
 }
+
+p{
+  font-size: large;
+}
+
 
 a:focus, a:hover {
   text-decoration: none;
