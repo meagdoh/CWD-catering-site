@@ -214,14 +214,14 @@
 }
 
 .andrew{
-  padding-left: 6em;
-  padding-bottom: 9em;
+  padding-left: 7em;
+  /* padding-bottom: 9em; */
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  /* .projects-section .project-text {
     padding: 5rem;
-  }
+  } */
   .projects-section .project-text hr {
     border-color: ##A0C180;
     border-width: .25rem;
