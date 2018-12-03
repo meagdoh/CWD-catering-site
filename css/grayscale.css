@@ -124,6 +124,14 @@
 }
 
 @media (min-width: 992px) {
+  .col-lg-8 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+}
+
+
+@media (min-width: 992px) {
   .masthead {
     height: 100vh;
     padding: 0;
@@ -183,13 +191,23 @@
 }
 
 .fa-arrow-right {
-  color: grey;
+  color: white;
+  font-size: 24px;
 
 }
 
+.mb-4 {
+  color: #b1bbc2;
+  font-size: 18px;
+  text-align: left;
+}
 
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+.img-fluid{
+      height: 100%;
 }
 
 @media (min-width: 992px) {
@@ -223,16 +241,16 @@
     padding: 5rem;
   } */
   .projects-section .project-text hr {
-    border-color: ##A0C180;
+    border-color: white;
     border-width: .25rem;
     width: 30%;
   }
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/noodles.png");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/noodles.png");
+  /* padding: 10rem 0; */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-beet-salad.png");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-beet-salad.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -249,6 +267,10 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.section-heading{
+  text-align: left;
 }
 
 .contact-section {
@@ -268,7 +290,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #243D4C;
+  border-color: #243d4c;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -302,6 +324,8 @@ body {
 
 h4{
   font-size: 2.5rem;
+color:  #243D4C;
+text-align: left;
 }
 
 a {
@@ -310,6 +334,12 @@ a {
 
 p{
   font-size: large;
+  font-family: 'Crimson Text', serif;
+  text-align: left;
+}
+
+.m-0{
+  text-align: center;
 }
 
 

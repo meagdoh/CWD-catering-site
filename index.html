@@ -138,6 +138,7 @@
 
                 </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
+                <br>
                 <i class="fas fa-arrow-right"></i>
               </div>
             </div>
@@ -152,7 +153,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">Our Commitment</h2>
+          <h4 class="section-heading text-white">Our Commitment</h4>
           <hr class="light my-4">
           <p class="text-faded mb-4">At Catering with Distinction, we take a local and honest approach to providing the best ingredients. Close relationships with our vendors allows us to source our produce daily from local suppliers, including Ward's Berry Farm; provide fair-trade
             coffee from Recreo, which is grown on their family farm and roasted locally; and receive our cakes and pastries daily from Boston's best bakeries. And we give back to places by donating meals to Breakthrough Greater Boston, Smart From the
@@ -162,7 +163,7 @@
       </div>
     </div>
   </section>
-
+<!--
   <section class="bg-primary" id="about">
     <div class="container">
       <div class="row">
@@ -187,9 +188,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Clients -->
-  <section class="py-5">
+  <!-- <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">
@@ -214,7 +215,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Signup Section -->
   <section id="signup" class="signup-section">
@@ -235,7 +236,7 @@
 
                            <div class="col-xl-8 offset-xl-2 py-5">
 
-                             <h2 class="text-white mb-5">Contact Us Today!</h2>
+                             <h4 class="text-white mb-5">Contact Us Today!</h4>
 
                                <form id="contact-form" method="post" action="contact.php" role="form">
 
@@ -246,14 +247,14 @@
                                        <div class="row">
                                            <div class="col-md-6">
                                                <div class="form-group">
-                                                   <label for="form_name">First Name</label>
+                                                   <!-- <label for="form_name">First Name</label> -->
                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="First Name" required="required" data-error="Firstname is required.">
                                                    <div class="help-block with-errors"></div>
                                                </div>
                                            </div>
                                            <div class="col-md-6">
                                                <div class="form-group">
-                                                   <label for="form_lastname">Last Name</label>
+                                                   <!-- <label for="form_lastname">Last Name</label> -->
                                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last Name" required="required" data-error="Lastname is required.">
                                                    <div class="help-block with-errors"></div>
                                                </div>
@@ -262,16 +263,16 @@
                                        <div class="row">
                                            <div class="col-md-6">
                                                <div class="form-group">
-                                                   <label for="form_email">Email</label>
+                                                   <!-- <label for="form_email">Email</label> -->
                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
                                                    <div class="help-block with-errors"></div>
                                                </div>
                                            </div>
                                            <div class="col-md-6">
                                                <div class="form-group">
-                                                   <label for="form_need">Select Event Type</label>
+                                                   <!-- <label for="form_need">Select Event Type</label> -->
                                                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                                       <option value=""></option>
+                                                     <option hidden value="" >Please select</option>
                                                        <option value="Breakfast/Lunch Delivery">Breakfast/Lunch Delivery</option>
                                                        <option value="Plated Breakfast/Lunch/Dinner">Plated Breakfast/Lunch/Dinner</option>
                                                        <option value="Cocktail Party">Cocktail Party</option>
@@ -288,8 +289,8 @@
                                        <div class="row">
                                            <div class="col-md-12">
                                                <div class="form-group">
-                                                   <label for="form_message">Event Details</label>
-                                                   <textarea id="form_message" name="message" class="form-control" placeholder="[Example event details]" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                                   <!-- <label for="form_message">Event Details</label> -->
+                                                   <textarea id="form_message" name="message" class="form-control" placeholder="Tell us a bit about your event..." rows="4" required="required" data-error="Please, leave us a message."></textarea>
                                                    <div class="help-block with-errors"></div>
                                                </div>
                                            </div>
