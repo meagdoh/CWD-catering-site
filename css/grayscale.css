@@ -9,11 +9,12 @@
   background-color: #fff;
 }
 
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #243D4C;
+  border: 1px solid #243D4C;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -22,7 +23,7 @@
 
 #mainNav .navbar-brand {
   color: #161616;
-  font-weight: 700;
+  font-weight: 400;
   padding: .9rem 0;
 }
 
@@ -74,15 +75,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #243D4C;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #243D4C;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #243D4C;
   }
 }
 
@@ -92,8 +93,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-beet-salad.png");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-beet-salad.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-lamb.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-lamb.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -102,10 +103,10 @@
 
 .masthead h1 {
   font-family: 'Hiragino Kaku Gothic Pro';
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -121,6 +122,14 @@
     line-height: 4rem;
   }
 }
+
+@media (min-width: 992px) {
+  .col-lg-8 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+}
+
 
 @media (min-width: 992px) {
   .masthead {
@@ -150,7 +159,8 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #243D4C;
+  margin-top: 28px;
 }
 
 .btn-primary:hover {
@@ -180,37 +190,67 @@
   padding: 10rem 0;
 }
 
+.fa-arrow-right {
+  color: white;
+  font-size: 24px;
+
+}
+
+.mb-4 {
+  color: #b1bbc2;
+  font-size: 18px;
+  text-align: left;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+.img-fluid{
+      height: 100%;
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #243D4C;
   }
 }
+
+@media (min-width: 992px){
+  .mb-lg-5 .my-lg-5
+
+ {
+    margin-bottom: 15rem!important;
+  }
+}
+
 
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
+.andrew{
+  padding-left: 7em;
+  /* padding-bottom: 9em; */
+}
+
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  /* .projects-section .project-text {
     padding: 5rem;
-  }
+  } */
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: white;
     border-width: .25rem;
     width: 30%;
   }
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/noodles.png");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/noodles.png");
+  /* padding: 10rem 0; */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-beet-salad.png");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-beet-salad.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -229,13 +269,17 @@
   border: 0;
 }
 
+.section-heading{
+  text-align: left;
+}
+
 .contact-section {
   padding: 5rem 0 0;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #243D4C;
 }
 
 .contact-section .card h4 {
@@ -246,7 +290,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #243d4c;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -278,9 +322,26 @@ body {
   letter-spacing: 0.0625em;
 }
 
-a {
-  color: #64a19d;
+h4{
+  font-size: 2.5rem;
+color:  #243D4C;
+text-align: left;
 }
+
+a {
+  color: #243D4C;
+}
+
+p{
+  font-size: large;
+  font-family: 'Crimson Text', serif;
+  text-align: left;
+}
+
+.m-0{
+  text-align: center;
+}
+
 
 a:focus, a:hover {
   text-decoration: none;
@@ -292,11 +353,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #243D4C !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #243D4C !important;
 }
 
 footer {
