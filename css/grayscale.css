@@ -365,6 +365,10 @@ footer {
   padding: 5rem 0;
 }
 
+.caption{
+  margin-left: 7em;
+}
+
 .carousel .inner .item {
   height: 200px;
 }
