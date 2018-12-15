@@ -158,6 +158,17 @@
   border: 0;
 }
 
+.btn-outline-info {
+    color: #243D4C;
+    font-family: 'Hiragino Kaku Gothic Pro';
+margin-right: 1em;
+}
+
+.btn-outline-info:hover {
+  background-color: #4f837f;
+}
+
+
 .btn-primary {
   background-color: #243D4C;
   margin-top: 28px;
@@ -176,6 +187,10 @@
   background-color: #467370 !important;
 }
 
+.btn-light{
+  margin-right: 22em;
+  margin-top: 1em;
+}
 /* .about-section {
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
@@ -187,13 +202,17 @@
 } */
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
-.fa-arrow-right {
-  color: white;
-  font-size: 24px;
+/* .services-section {
+padding-top: 0;
+  padding: 8rem 0;
+} */
 
+
+#commitment {
+  margin-top: 7em;
 }
 
 .mb-4 {
@@ -206,9 +225,22 @@
   padding: 2rem;
 }
 
+.services-section .featured-text {
+  padding: 2rem;
+}
+
 .img-fluid{
       height: 100%;
 }
+
+.services-CTA {
+  color: white;
+
+}
+.services-CTA a:hover  {
+  color: none;
+}
+
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
@@ -216,6 +248,14 @@
     border-left: 0.5rem solid #243D4C;
   }
 }
+
+@media (min-width: 992px) {
+  .services-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #243D4C;
+  }
+}
+
 
 @media (min-width: 992px){
   .mb-lg-5 .my-lg-5
@@ -231,6 +271,11 @@
   font-size: 90%;
 }
 
+.services-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
 .andrew{
   padding-left: 7em;
   /* padding-bottom: 9em; */
@@ -240,7 +285,18 @@
   /* .projects-section .project-text {
     padding: 5rem;
   } */
-  .projects-section .project-text hr {
+  .projects-section .project-text  hr {
+    border-color: white;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* .projects-section .project-text {
+    padding: 5rem;
+  } */
+  .services-section .project-text  hr {
     border-color: white;
     border-width: .25rem;
     width: 30%;
@@ -369,9 +425,12 @@ footer {
   margin-left: 7em;
 }
 
-.carousel .inner .item {
-  height: 200px;
+.carousel-item {
+  height: 65vh;
+    min-height: 150px;
 }
+
+
 
 .item img {
     position: absolute;
