@@ -452,3 +452,15 @@ footer {
   /* margin-top: 6em;
 margin-bottom: 6em; */
 }
+
+li{
+  font-weight: bold;
+}
+
+span{
+  font-weight: lighter;
+}
+
+.menu-header{
+  padding-left: 15px;
+}
