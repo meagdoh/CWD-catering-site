@@ -1,3 +1,13 @@
+.container{
+padding: 8em;
+}
+
+header{
+padding-top: 22em;
+  padding-left: 22em;
+  text-align: left;
+}
+
 li{
 }
 
@@ -15,10 +25,9 @@ body {
   font-weight: lighter;
 }
 
-h4{
-  font-size: 2.5rem;
-color:  #243D4C;
-text-align: left;
+
+h1, h2, h3,h5,li, .price{
+color:  #243D4C
 }
 
 a {
@@ -29,6 +38,24 @@ p, ul{
   font-family: 'Crimson Text', serif;
   font-weight: lighter;
   text-align: left;
+}
+
+span{
+  color: rgba(0,0,0,.5);
+}
+
+hr {
+width: 100%;
+margin-left: 1em;
+height: 2px;
+background-color:#D3A63A;
+}
+
+.primary{
+  width: 276px;
+  margin-left: 1em;
+  height: 10px;
+  background-color:#D3A63A;
 }
 
 li{
@@ -42,5 +69,6 @@ li{
 }
 
 .price{
-  padding-bottom: 4.1em;
+  padding-bottom:4.5em;
+
 }
