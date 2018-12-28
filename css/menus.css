@@ -3,9 +3,10 @@ padding: 8em;
 }
 
 header{
-padding-top: 22em;
-  padding-left: 22em;
+padding-top: 2em;
+  /* padding-left: 22em; */
   text-align: left;
+  padding-bottom: 2em;
 }
 
 li{
