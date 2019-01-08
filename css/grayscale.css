@@ -464,3 +464,15 @@ span{
 .menu-header{
   padding-left: 15px;
 }
+
+@media only screen and (max-device-width:768px){
+  html, body{
+    overflow-x: hidden !important;
+  }
+  #page-top{
+    position: relative !important;
+  }
+  .navbar{
+    width: 100vw;
+  }
+}
