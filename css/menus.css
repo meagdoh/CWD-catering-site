@@ -20,7 +20,7 @@ span{
 }
 
 body {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', monospace;
   letter-spacing: 0.0625em;
   font-weight: lighter;
 }
@@ -35,7 +35,7 @@ a {
 }
 
 p, ul{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', monospace;
   font-weight: lighter;
   text-align: left;
 }
