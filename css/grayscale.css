@@ -102,7 +102,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Hiragino Kaku Gothic Pro';
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
   font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
