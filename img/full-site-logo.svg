@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="78px" viewBox="0 0 200 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="97" width="200" height="78"></rect>
+        <text id="text-3" font-family="HiraKakuStd-W8, Hiragino Kaku Gothic Std" font-size="19" font-weight="600" letter-spacing="2.499688" fill="#1A136D">
+            <tspan x="35" y="133">CATERING</tspan>
+        </text>
+        <filter x="-3.3%" y="-13.2%" width="104.4%" height="121.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-3" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.986952594   0 0 0 0 0.894638785   0 0 0 0 0.74288199  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V.3" transform="translate(-915.000000, -307.000000)">
+            <g id="Group" transform="translate(915.000000, 210.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-Mask"></g>
+                <g id="Design-1,-Treatment-3---shorter-lines" mask="url(#mask-2)">
+                    <rect id="Rectangle" stroke="#D3A503" stroke-width="4" fill="#FFFFFF" x="2" y="99" width="196" height="74"></rect>
+                    <rect id="Rectangle" fill="#1C1145" x="0" y="115" width="200" height="40"></rect>
+                    <ellipse id="Oval" fill="#FFFFFF" cx="100" cy="134" rx="72" ry="134"></ellipse>
+                    <text id="WITH-DISTINCTION" font-family="CrimsonText-Regular, Crimson Text" font-size="13" font-weight="normal" letter-spacing="0.6066667" fill="#121A53">
+                        <tspan x="36" y="149">WITH DISTINCTION</tspan>
+                    </text>
+                    <g id="CATERING-Copy" fill="#1A136D" fill-opacity="1">
+                        <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                        <use xlink:href="#text-3"></use>
+                    </g>
+                    <text id="1984" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="8" font-weight="500" letter-spacing="0.8687999" fill="#FFFFFF">
+                        <tspan x="173" y="139">1984</tspan>
+                    </text>
+                    <text id="EST." font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro" font-size="8" font-weight="500" letter-spacing="0.8687999" fill="#FFFFFF">
+                        <tspan x="6" y="139">EST.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

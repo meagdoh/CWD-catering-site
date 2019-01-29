@@ -79,3 +79,12 @@ h6{
 .social{
   padding: 12em;
 }
+
+.title{
+  padding-top: .5em;
+  font-size: 3em;
+}
+
+.logo{
+  margin-left: 30%;
+}
