@@ -1,9 +1,10 @@
  .container{
 padding: 8em;
+padding-top: 0em;
 }
 
 header{
-padding-top: 2em;
+/* padding-top: 2em; */
   text-align: left;
   padding-bottom: 2em;
 }
@@ -26,6 +27,10 @@ body {
   font-weight: lighter;
 }
 
+
+h1{
+      padding-top: 1em;
+}
 
 h1, h2, h3,h5,li, .price{
 color:  #243D4C
@@ -78,10 +83,12 @@ h6{
 
 .social{
   padding: 12em;
+  padding-top: 4em;
+}
 }
 
 .title{
-  padding-top: .5em;
+  padding-top: 2em;
   font-size: 3em;
 }
 
