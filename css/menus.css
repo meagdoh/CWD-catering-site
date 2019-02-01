@@ -103,7 +103,15 @@ h6{
 img {
     page-break-before: always;
   }
-  row-eq-height{
+  list-group-item{
     page-break-inside: avoid;
   }
+h3{
+  page-break-after: avoid;
+}
+}
+
+
+@page {
+  size: A4;
 }
