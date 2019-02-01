@@ -1,3 +1,6 @@
+
+
+
  .container{
 padding: 8em;
 padding-top: 0em;
@@ -94,4 +97,13 @@ h6{
 
 .logo{
   margin-left: 30%;
+}
+
+@media print {
+img {
+    page-break-before: always;
+  }
+  row-eq-height{
+    page-break-inside: avoid;
+  }
 }
