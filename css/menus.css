@@ -1,5 +1,48 @@
 
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Hiragino Kaku Gothic Pro';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
 
+.btn-outline-info {
+    color: #243D4C;
+    font-family: 'Hiragino Kaku Gothic Pro';
+margin-right: 1em;
+}
+
+.btn-outline-info:hover {
+  background-color: #4f837f;
+}
+
+
+.btn-primary {
+  background-color: #243D4C;
+  margin-top: 28px;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.btn-primary:focus {
+  background-color: #52A49F;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+.btn-light{
+  margin-left: 22em;
+  margin-top: 1em;
+}
 
  .container{
 padding: 8em;
@@ -99,7 +142,7 @@ h6{
   margin-left: 30%;
 }
 
-@media print {
+/* @media print {
 img {
     page-break-before: always;
   }
@@ -116,4 +159,4 @@ h3{
   size: 5.5in 8.5in;
   margin: 70pt 60pt 70pt;
 
-}
+} */
